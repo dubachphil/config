@@ -1,0 +1,11 @@
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens160:
+      addresses:
+        - 10.65.249.210/26
+      dhcp4: no
+      gateway4: 10.65.249.193
+      nameservers:
+          addresses: [10.11.38.11, 10.11.38.12, 10.11.38.13]
